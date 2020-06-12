@@ -1,6 +1,6 @@
 /* Corps de la page (background) */
 body{
-    background-color: #402603;
+    background-color: #2e1b03;
     padding: 0px;
     margin: 0px;
 }
@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
     margin-top: 300px;
     border-radius: 10px;
-    border: solid 8px pink;
+    border: solid 8px #fd00be;
 
 
 }
@@ -42,11 +42,11 @@ nav.menu_nav ul li.btn{
 nav.menu_nav ul li.btn a{
     color: black;
     text-decoration: none;
-    background-color: pink;
+    background-color: #fd00be;
     padding:10px;
     font-size: 30px;   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: pink solid 5px;
+    border: #fd00be 5px;
     border-radius: 5px;
 }
 
@@ -93,3 +93,4 @@ nav.menu_nav ul li.btn:active a{
 .text{
     font-size: 20px;
 }
+

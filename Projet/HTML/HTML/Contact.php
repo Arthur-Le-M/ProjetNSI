@@ -29,10 +29,15 @@
             </nav>
             </div>
             <div class="corps">
-                <h1 class="Titre_Page"> Cartes</h1>
-                <h1 class="Titre">Ceci est un titre de paragraphe</h1>
-                <p class="text">Ceci est un paragraphe</p>
-
+                <h1 class="Titre_Page"> Nous contacter</h1>
+                    <p class="text">Pour nous contacter merci de remplir ce formulaire:</p>
+                <h2 class=contact-email> Nous contacter par email:</h2>
+                    <p> ti-fourn.europa@orange.fr</p>
+                <h2 class=contact-telephone> Nous contacter par téléphone: </h2>
+                    <p>02 98 04 72 70</p>
+                
+                <p class="text">Pour nous envoyer un message, merci de remplir ce formulaire:</p>
+                
             </div>
         </div>
 
