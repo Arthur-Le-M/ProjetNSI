@@ -34,14 +34,26 @@
             </nav>
             </div>
             <div class="corps">
-                <h1 class="Titre_Page">Nos Cartes</h1>
+                <h1 class="Titre_Page"> Nous contacter</h1>
+                <h2 class=Titre> Nous contacter par email:</h2>
+                    <p class="text"> ti-fourn.europa@orange.fr</p>
+                <h2 class=Titre> Nous contacter par téléphone: </h2>
+                    <p class=text>02 98 04 72 70</p>
+                <p class="text">Pour nous envoyer un message, merci de remplir ce formulaire:</p>
+                <div class="form">
+                    <form id='formulairecontact' method="post" action="test.php">
+                        <input name="name" type='text' class="input-form" placeholder="Your Name" required>
+                        <br>
+                        <input name="email" type='email' class="input-form" placeholder="Your Email" required>
+                        <br>
+                        <textarea name="message" class="input-form" placeholder="Message" row="4" required>
+                        </textarea><br>
+                        <input type="submit" class="input-form-bouton" value="Send Message">
 
-                <div class ="cartecontainer">
-                    <img class = "carte" src="CSS/images/Carte.png" alt=Carte />
-                    <img class = "carte" src="CSS/images/CarteThé.png" alt=CarteThé />
+                    </form>
                 </div>
+                
             </div>
         </div>
-
     </body>
 </html>
