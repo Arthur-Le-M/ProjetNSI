@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Boulangerie</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='CSS/style.css'>
+        <script src='\JS\script.js'></script>
+    </head>
+    <header>
+        <div class="logocontainer">
+            <img class="logo" src="CSS/images/logotest.png" alt="Logo" href="index.html"/>
+        </div>
+    </header>
+    <body>
+        <div class="page">
+            <div class = barre>
+            <nav class = "menu_nav">
+                <ul>
+                    <li class="btn">
+                        <a href="index.html"> Accueil </a>
+                    </li>
+                    <li class="btn">
+                        <a href="Cartes.html"> Cartes </a>
+                    </li>
+                    <li class="btn">
+                        <a href="A-propos.html"> A propos </a>
+                    </li>
+                    <li class="btn">
+                        <a href="Contact.html"> Contact </a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+            <div class="corps">
+                <h1 class="Titre_Page"> Nous contacter</h1>
+                    <p class="text">Pour nous contacter merci de remplir ce formulaire:</p>
+                <h2 class=Titre> Nous contacter par email:</h2>
+                    <p class="text"> ti-fourn.europa@orange.fr</p>
+                <h2 class=Titre> Nous contacter par téléphone: </h2>
+                    <p class=text>02 98 04 72 70</p>
+                <p class="text">Pour nous envoyer un message, merci de remplir ce formulaire:</p>
+                <div class="form">
+                    <form id='formulairecontact' method="post" action="test.php">
+                        <input name="name" type='text' class="input-form" placeholder="Your Name" required>
+                        <br>
+                        <input name="email" type='email' class="input-form" placeholder="Your Email" required>
+                        <br>
+                        <textarea name="message" class="input-form" placeholder="Message" row="4" required>
+                        </textarea><br>
+                        <input type="submit" class="input-form-bouton" value="Send Message">
+
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+</html>
