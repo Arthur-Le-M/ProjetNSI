@@ -1,0 +1,199 @@
+/* Police */
+@font-face{
+    font-family: 'Police1';
+    src: url(police/Oswald-Regular.ttf);
+}
+
+*{
+    font-family: Police1;
+}
+
+/* Logo */
+.logo{
+    height: 400px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.logocontainer{
+    text-align: center;
+}
+
+/* Corps de la page (background) */
+body{
+    margin: 0 auto;
+    background-image: url(images/background.png);
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Corps de la page (forground) */
+.page{
+    background-image: url(images/forground.png);
+    padding: 0px;
+    margin: 0px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    border: solid 8px #fd00be;
+
+
+}
+
+/* Div Barre */
+.barre{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+/* Menu Barre de Nav */
+nav.menu_nav ul li.btn{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    top:-40px;
+}
+
+nav.menu_nav ul li.btn a{
+    color: black;
+    text-decoration: none;
+    background-color: #fd00be;
+    padding: 10px;
+    font-size: 30px;   
+    border: #fd00be 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav.menu_nav ul li.btn:hover a{
+    color: white;
+    background-color: rebeccapurple;
+    transition: 0.3s;
+}
+
+nav.menu_nav ul li.btn:active a{
+    color: black;
+    background-color: white;
+    transition: 0.1s;
+
+}
+
+/* corps du forground */
+.corps{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 50px;
+    
+}
+
+
+/* textes et titres */
+
+.text, .Titre_Page, .Titre{
+    margin-left: 10px;
+}
+
+.Titre_Page{
+    margin-left: 25px ;
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.Titre{
+    font-size: 28px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+
+.horaires{
+    text-align: center;
+}
+
+/* carte */
+
+.carte{
+    width: 900px;
+    border-radius: 22px;
+    border:#fd00be solid 2px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.cartecontainer{
+    text-align: center;
+}
+
+/* Image */
+
+#big{
+    height: 500px;
+}
+
+.imagecontainer{
+    text-align: center;
+}
+
+.imagecontainer-presentation{
+    text-align: center;
+}
+
+.image-presentation{
+    height: 500px;
+}
+
+/* php */
+
+.form{
+    text-align: center;
+}
+
+form{
+    margin-top: 50px;
+
+}
+
+.input-form{
+    width: 600px;
+    background: transparent;
+    border: none;
+    border-bottom:1px #fd00be solid;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 45px;
+}
+
+.input-form-bouton{
+    background: #fd00be;
+    color: white;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.input-form-bouton:hover{
+    transition: .3s;
+    background-color: rebeccapurple;
+    padding-left: 20px;
+    padding-right: 20px;
+}
